@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FitBuddy - AI Fitness Plan Generator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>🏋️ FitBuddy</h1>
+<p>AI Fitness Plan Generator using Gemini Models</p>
+</header>
+<div class="container">
+<div class="form-card">
+<h2>Create Your Personalized Plan</h2>
+<input type="number" id="age" placeholder="Age (ex: 21)">
+<select id="gender"><option>Male</option><option>Female</option></select>
+<input type="number" id="weight" placeholder="Weight in KG (ex: 65)">
+<input type="number" id="height" placeholder="Height in CM (ex: 165)">
+<select id="goal">
+<option>Weight Loss</option>
+<option>Weight Gain</option>
+<option>Muscle Building</option>
+<option>General Fitness</option>
+</select>
+<select id="level">
+<option>Beginner</option>
+<option>Intermediate</option>
+<option>Advanced</option>
+</select>
+<button onclick="generatePlan()">Generate AI Plan 🚀</button>
+</div>
+<div id="result" class="result-card" style="display:none;">
+<h2>Your AI Generated Plan</h2>
+<pre id="planText"></pre>
+</div>
+</div>
+<footer>Developed by Rithidharshini B | SmartBridge Project 2026</footer>
+<script src="script.js"></script>
+</body>
+</html>
