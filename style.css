@@ -1,0 +1,9 @@
+body{margin:0;font-family:'Segoe UI',Arial;background:#f0f7ff}
+header{background:linear-gradient(90deg,#0f172a,#2563eb);color:#fff;padding:30px;text-align:center}
+.container{max-width:900px;margin:auto;padding:20px}
+.form-card,.result-card{background:#fff;padding:25px;border-radius:15px;box-shadow:0 8px 20px rgba(0,0,0,0.1);margin-bottom:20px}
+input,select{width:100%;padding:12px;margin:8px 0;border-radius:8px;border:1px solid #ccc}
+button{width:100%;padding:14px;background:#2563eb;color:#fff;border:none;border-radius:10px;font-size:16px;cursor:pointer;margin-top:10px}
+button:hover{background:#1e40af}
+pre{white-space:pre-wrap;font-family:Arial;line-height:1.6}
+footer{text-align:center;padding:20px;color:#666}
